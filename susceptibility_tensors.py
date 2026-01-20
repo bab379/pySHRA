@@ -27,7 +27,7 @@ def get_reduced_tensor(N, name, point_group):
 
 def getX2TensorLab(point_group,rotation_matrix):
     name = 'chi'
-    N = 3
+    N = 3 # rank
     X2 = get_reduced_tensor(N, name, point_group)
     print_slices(X2)
     free_syms = list({s for e in X2 for s in e.free_symbols})
@@ -38,7 +38,7 @@ def getX2TensorLab(point_group,rotation_matrix):
 
 def getX3TensorLab(point_group,rotation_matrix):
     name = 'chi'
-    N = 4
+    N = 4 # rank
     X3 = get_reduced_tensor(N, name, point_group)
     print_slices(X3)
     free_syms = list({s for e in X3 for s in e.free_symbols})
