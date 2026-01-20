@@ -1,0 +1,3267 @@
+└── wavelength (list)
+    (list, len=1)
+    element_type=float [numeric]
+└── s-in/s-out (dict)
+    ├── chi_113 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_223 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_311 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_322 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_333 (dict)
+    │   └── RRMSE (list)
+    │       (list, len=1)
+    │       element_type=float [numeric]
+    │   └── components (dict)
+    │       └── 0 (dict)
+    │           ├── iso (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 1 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 2 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 3 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 4 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 5 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 6 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 7 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 8 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 9 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 10 (dict)
+    │           └── cos (dict)
+    │               ├── mag (list)
+    │               │   (list, len=1)
+    │               │   element_type=float [numeric]
+    │               ├── phase (list)
+    │               │   (list, len=1)
+    │               │   element_type=float [numeric]
+    │           └── sin (dict)
+    │               └── mag (list)
+    │                   (list, len=1)
+    │                   element_type=float [numeric]
+    │               └── phase (list)
+    │                   (list, len=1)
+    │                   element_type=float [numeric]
+└── p-in/s-out (dict)
+    ├── chi_113 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_223 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_311 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_322 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_333 (dict)
+    │   └── RRMSE (list)
+    │       (list, len=1)
+    │       element_type=float [numeric]
+    │   └── components (dict)
+    │       └── 0 (dict)
+    │           ├── iso (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 1 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 2 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 3 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 4 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 5 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 6 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 7 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 8 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 9 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 10 (dict)
+    │           └── cos (dict)
+    │               ├── mag (list)
+    │               │   (list, len=1)
+    │               │   element_type=float [numeric]
+    │               ├── phase (list)
+    │               │   (list, len=1)
+    │               │   element_type=float [numeric]
+    │           └── sin (dict)
+    │               └── mag (list)
+    │                   (list, len=1)
+    │                   element_type=float [numeric]
+    │               └── phase (list)
+    │                   (list, len=1)
+    │                   element_type=float [numeric]
+└── s-in/p-out (dict)
+    ├── chi_113 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_223 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_311 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_322 (dict)
+    │   ├── RRMSE (list)
+    │   │   (list, len=1)
+    │   │   element_type=float [numeric]
+    │   ├── components (dict)
+    │   │   └── 0 (dict)
+    │   │       ├── iso (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 1 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 2 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 3 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 4 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 5 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 6 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 7 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 8 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 9 (dict)
+    │   │       ├── cos (dict)
+    │   │       │   ├── mag (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       │   ├── phase (list)
+    │   │       │   │   (list, len=1)
+    │   │       │   │   element_type=float [numeric]
+    │   │       ├── sin (dict)
+    │   │       │   └── mag (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │       │   └── phase (list)
+    │   │       │       (list, len=1)
+    │   │       │       element_type=float [numeric]
+    │   │   └── 10 (dict)
+    │   │       └── cos (dict)
+    │   │           ├── mag (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │           ├── phase (list)
+    │   │           │   (list, len=1)
+    │   │           │   element_type=float [numeric]
+    │   │       └── sin (dict)
+    │   │           └── mag (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    │   │           └── phase (list)
+    │   │               (list, len=1)
+    │   │               element_type=float [numeric]
+    ├── chi_333 (dict)
+    │   └── RRMSE (list)
+    │       (list, len=1)
+    │       element_type=float [numeric]
+    │   └── components (dict)
+    │       └── 0 (dict)
+    │           ├── iso (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 1 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 2 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 3 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 4 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 5 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 6 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 7 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 8 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 9 (dict)
+    │           ├── cos (dict)
+    │           │   ├── mag (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           │   ├── phase (list)
+    │           │   │   (list, len=1)
+    │           │   │   element_type=float [numeric]
+    │           ├── sin (dict)
+    │           │   └── mag (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │           │   └── phase (list)
+    │           │       (list, len=1)
+    │           │       element_type=float [numeric]
+    │       └── 10 (dict)
+    │           └── cos (dict)
+    │               ├── mag (list)
+    │               │   (list, len=1)
+    │               │   element_type=float [numeric]
+    │               ├── phase (list)
+    │               │   (list, len=1)
+    │               │   element_type=float [numeric]
+    │           └── sin (dict)
+    │               └── mag (list)
+    │                   (list, len=1)
+    │                   element_type=float [numeric]
+    │               └── phase (list)
+    │                   (list, len=1)
+    │                   element_type=float [numeric]
+└── p-in/p-out (dict)
+    └── chi_113 (dict)
+        ├── RRMSE (list)
+        │   (list, len=1)
+        │   element_type=float [numeric]
+        ├── components (dict)
+        │   └── 0 (dict)
+        │       ├── iso (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 1 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 2 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 3 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 4 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 5 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 6 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 7 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 8 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 9 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 10 (dict)
+        │       └── cos (dict)
+        │           ├── mag (list)
+        │           │   (list, len=1)
+        │           │   element_type=float [numeric]
+        │           ├── phase (list)
+        │           │   (list, len=1)
+        │           │   element_type=float [numeric]
+        │       └── sin (dict)
+        │           └── mag (list)
+        │               (list, len=1)
+        │               element_type=float [numeric]
+        │           └── phase (list)
+        │               (list, len=1)
+        │               element_type=float [numeric]
+    └── chi_223 (dict)
+        ├── RRMSE (list)
+        │   (list, len=1)
+        │   element_type=float [numeric]
+        ├── components (dict)
+        │   └── 0 (dict)
+        │       ├── iso (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 1 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 2 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 3 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 4 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 5 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 6 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 7 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 8 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 9 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 10 (dict)
+        │       └── cos (dict)
+        │           ├── mag (list)
+        │           │   (list, len=1)
+        │           │   element_type=float [numeric]
+        │           ├── phase (list)
+        │           │   (list, len=1)
+        │           │   element_type=float [numeric]
+        │       └── sin (dict)
+        │           └── mag (list)
+        │               (list, len=1)
+        │               element_type=float [numeric]
+        │           └── phase (list)
+        │               (list, len=1)
+        │               element_type=float [numeric]
+    └── chi_311 (dict)
+        ├── RRMSE (list)
+        │   (list, len=1)
+        │   element_type=float [numeric]
+        ├── components (dict)
+        │   └── 0 (dict)
+        │       ├── iso (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 1 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 2 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 3 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 4 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 5 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 6 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 7 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 8 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 9 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 10 (dict)
+        │       └── cos (dict)
+        │           ├── mag (list)
+        │           │   (list, len=1)
+        │           │   element_type=float [numeric]
+        │           ├── phase (list)
+        │           │   (list, len=1)
+        │           │   element_type=float [numeric]
+        │       └── sin (dict)
+        │           └── mag (list)
+        │               (list, len=1)
+        │               element_type=float [numeric]
+        │           └── phase (list)
+        │               (list, len=1)
+        │               element_type=float [numeric]
+    └── chi_322 (dict)
+        ├── RRMSE (list)
+        │   (list, len=1)
+        │   element_type=float [numeric]
+        ├── components (dict)
+        │   └── 0 (dict)
+        │       ├── iso (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 1 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 2 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 3 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 4 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 5 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 6 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 7 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 8 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 9 (dict)
+        │       ├── cos (dict)
+        │       │   ├── mag (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       │   ├── phase (list)
+        │       │   │   (list, len=1)
+        │       │   │   element_type=float [numeric]
+        │       ├── sin (dict)
+        │       │   └── mag (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │       │   └── phase (list)
+        │       │       (list, len=1)
+        │       │       element_type=float [numeric]
+        │   └── 10 (dict)
+        │       └── cos (dict)
+        │           ├── mag (list)
+        │           │   (list, len=1)
+        │           │   element_type=float [numeric]
+        │           ├── phase (list)
+        │           │   (list, len=1)
+        │           │   element_type=float [numeric]
+        │       └── sin (dict)
+        │           └── mag (list)
+        │               (list, len=1)
+        │               element_type=float [numeric]
+        │           └── phase (list)
+        │               (list, len=1)
+        │               element_type=float [numeric]
+    └── chi_333 (dict)
+        └── RRMSE (list)
+            (list, len=1)
+            element_type=float [numeric]
+        └── components (dict)
+            └── 0 (dict)
+                ├── iso (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 1 (dict)
+                ├── cos (dict)
+                │   ├── mag (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                │   ├── phase (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                ├── sin (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 2 (dict)
+                ├── cos (dict)
+                │   ├── mag (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                │   ├── phase (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                ├── sin (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 3 (dict)
+                ├── cos (dict)
+                │   ├── mag (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                │   ├── phase (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                ├── sin (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 4 (dict)
+                ├── cos (dict)
+                │   ├── mag (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                │   ├── phase (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                ├── sin (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 5 (dict)
+                ├── cos (dict)
+                │   ├── mag (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                │   ├── phase (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                ├── sin (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 6 (dict)
+                ├── cos (dict)
+                │   ├── mag (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                │   ├── phase (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                ├── sin (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 7 (dict)
+                ├── cos (dict)
+                │   ├── mag (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                │   ├── phase (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                ├── sin (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 8 (dict)
+                ├── cos (dict)
+                │   ├── mag (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                │   ├── phase (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                ├── sin (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 9 (dict)
+                ├── cos (dict)
+                │   ├── mag (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                │   ├── phase (list)
+                │   │   (list, len=1)
+                │   │   element_type=float [numeric]
+                ├── sin (dict)
+                │   └── mag (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+                │   └── phase (list)
+                │       (list, len=1)
+                │       element_type=float [numeric]
+            └── 10 (dict)
+                └── cos (dict)
+                    ├── mag (list)
+                    │   (list, len=1)
+                    │   element_type=float [numeric]
+                    ├── phase (list)
+                    │   (list, len=1)
+                    │   element_type=float [numeric]
+                └── sin (dict)
+                    └── mag (list)
+                        (list, len=1)
+                        element_type=float [numeric]
+                    └── phase (list)
+                        (list, len=1)
+                        element_type=float [numeric]

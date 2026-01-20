@@ -1,0 +1,40 @@
+└── wavelength (list)
+    (list, len=1)
+    element_type=float [numeric]
+└── fund (dict)
+    └── R (list)
+        (list, len=1)
+        element_type=MutableDenseMatrix, elem_shape=(2, 2) [symbolic]
+    └── T (list)
+        (list, len=1)
+        element_type=MutableDenseMatrix, elem_shape=(2, 2) [symbolic]
+    └── d (list)
+        (list, len=1)
+        element_type=MutableDenseMatrix, elem_shape=(3, 2) [symbolic]
+    └── b (list)
+        (list, len=1)
+        element_type=ndarray, elem_shape=(3, 2) [numeric+symbolic]
+    └── f (list)
+        (list, len=1)
+        element_type=ndarray, elem_shape=(3, 2) [numeric+symbolic]
+    └── v_z_II (list)
+        (list, len=1)
+        element_type=list [numeric+symbolic]
+    └── epsII (list)
+        (list, len=1)
+        element_type=list [numeric+symbolic]
+    └── kappa (list)
+        (list, len=1)
+        element_type=ndarray, elem_shape=(3,) [numeric+symbolic]
+    └── R_23 (list)
+        (list, len=1)
+        element_type=MutableDenseMatrix, elem_shape=(2, 2) [symbolic]
+    └── T_23 (list)
+        (list, len=1)
+        element_type=MutableDenseMatrix, elem_shape=(2, 2) [symbolic]
+    └── d_23 (list)
+        (list, len=1)
+        element_type=MutableDenseMatrix, elem_shape=(3, 2) [symbolic]
+    └── v_z_III (list)
+        (list, len=1)
+        element_type=list [numeric+symbolic]
