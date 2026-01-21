@@ -97,6 +97,7 @@ class Evaluation:
 
         if 'EFISH' in sources:
             X3_cont = X3_lab[:, :, :, 2]
+            print('X3 tensor contracted with E_dc along z:', X3_cont)
             deb = calc_debye()
             surface_potential = 1
             F1 = 1 / (1 + 1j * deb * (2*v_z_I_f + v_z_I_SH))

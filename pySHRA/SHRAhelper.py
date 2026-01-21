@@ -427,7 +427,7 @@ class mediumI:
         self.fDict = {'fund': self.f_f,'SH':self.f_SH}
         # SH field prefactor
         self.mu = 1.
-        self.gamma = (2*np.pi*1j*(self.omega_SH**2)*self.mu)/((constants.c**2)*self.v_SH_z)/np.sqrt(37115548645497.88)
+        self.gamma = (2*np.pi*1j*(self.omega_SH**2)*self.mu)/((constants.c**2)*self.v_SH_z)
 
 class mediumII():
     def __init__(self,point_group,rotation_matrix,angles_xtal_to_lab):

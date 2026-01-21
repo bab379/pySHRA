@@ -18,7 +18,7 @@ def run_model(output_dir, point_group_I, point_group_II, sources, optical_data_I
     theta_deg = 45
     theta = theta_deg*np.pi/180
     print('Angle of incidence (deg): ', theta_deg)
-    input('Treating system as (press enter to continue): ' + fresnel_method)
+    input('Treating system as: ' + fresnel_method + '. Press enter to continue.')
     Q_z = rotation_mats.Q_z # rotation matrix for azimuthal rotation about z axis
     phi = rotation_mats.phi
     pi = rotation_mats.pi
@@ -229,12 +229,14 @@ def setup_optical_const(dir_nk,read_file_for_II,read_file_for_I,read_file_for_II
 # **********************************************************************
 dir_nk = "C:/Users/...CHANGETHIS..." # change to desired directory
 output_dir = "C:/Users/...CHANGETHIS..." # change to desired directory
-measured_mats = ['TiO2','RuO2','IrO2']
+
+measured_mats = ['TiO2','RuO2','IrO2'] # read in n,k for these materials
+
+# assign point groups of materials
 point_group_dict = {'argon': 'infm','air': 'infm', 'water': 'infm', 'RuO2': 'mm2', 'IrO2': 'mm2',
                     'TiO2': 'mm2', 'Pt': 'infm','silica': 'infm'}
-# point_group_dict = {'argon': 'infm','air': 'infm', 'water': 'infm', 'RuO2': 'mm2', 'IrO2': 'mm2',
-#                     'TiO2': 'mm2', 'Pt': 'mm2','silica': 'infm'}
 
+# select wavelength bounds for simulation (in nm)
 wv_bounds_dict = {'RuO2': [800,800], 'IrO2': [800,800], 'TiO2': [800,800], 'Pt': [800,800],'silica': [800,800]}
 
 media_II = ['RuO2']

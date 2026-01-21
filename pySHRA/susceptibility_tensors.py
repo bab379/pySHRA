@@ -40,7 +40,7 @@ def getX3TensorLab(point_group,rotation_matrix):
     name = 'chi'
     N = 4 # rank
     X3 = get_reduced_tensor(N, name, point_group)
-    print_slices(X3)
+    print_slices_4th(X3)
     free_syms = list({s for e in X3 for s in e.free_symbols})
     print('Nonvanishing elements', free_syms)
     Q = rotation_matrix
@@ -54,6 +54,19 @@ def symbolic_tensor(rank,name):
     symbols = [sp.Symbol(f"{name}_" + "".join(map(str, idx)))
                for idx in product(*idx_ranges)]
     return sp.MutableDenseNDimArray(symbols, [dim]*rank)
+
+def print_slices_4th(T):
+    print('\nPrinting 4th-rank tensor...')
+    for l in range(T.shape[3]):
+        print(f"l = {l} slice:")
+        for i in range(T.shape[0]):
+            print(f"  i = {i}")
+            slice_2d = T[i, :, :, l].tolist()
+            pretty_rows = [[sp.pretty(e, use_unicode=True) for e in row] for row in slice_2d]
+            col_widths = [max(len(s) for s in col) for col in zip(*pretty_rows)]
+            for row in pretty_rows:
+                print("    " + "  ".join(s.ljust(w) for s, w in zip(row, col_widths)))
+        print()
 
 
 def print_slices(T):

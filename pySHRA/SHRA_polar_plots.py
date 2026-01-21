@@ -4,6 +4,8 @@ from SHRAevaluation import field_from_X2_dict, load_result
 import os
 
 def plot_grid_polar(fourier_dict,fig_size,wavelength_selected,pol_names=[],X_names=[],fig_name='polar_plot_example.svg'):
+    normalization = np.sqrt(37115548645497.88) # normalize to max(F_333) for RuO2(110)-argon interface
+    print('normalization =',normalization)
     plt.rcParams.update({
         'font.size': 9,
         'font.family': 'Arial',
@@ -40,7 +42,7 @@ def plot_grid_polar(fourier_dict,fig_size,wavelength_selected,pol_names=[],X_nam
             ax = axes[j,i]
             X2_name = X_names[j]
             X2_cmp_dict = fourier_dict[pol_name][X2_name]['components']
-            recon = field_from_X2_dict(X2_cmp_dict,wv_idx,phi_vals)
+            recon = field_from_X2_dict(X2_cmp_dict,wv_idx,phi_vals)/normalization
             intensity = np.real(recon*np.conjugate(recon))
             int_max = np.max(intensity)
             if int_max > 0.0:
@@ -67,10 +69,12 @@ def plot_grid_polar(fourier_dict,fig_size,wavelength_selected,pol_names=[],X_nam
 
 
 output_dir = "C:/Users/...CHANGETHIS..." # this should be the folder where the output files live
+
 fig_dir = output_dir
 output_files = [f for f in os.listdir(output_dir) if 'fourier' in f]
 print(output_files)
 file_selected = output_files[0]
+print(file_selected)
 X2_fourier_dict = load_result(output_dir + file_selected)
 fig_name = os.path.join(fig_dir, 'polar_plot_example.svg')
 plot_grid_polar(X2_fourier_dict,fig_size=[4,3],wavelength_selected=800,fig_name=fig_name)
