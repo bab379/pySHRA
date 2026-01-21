@@ -227,8 +227,8 @@ def setup_optical_const(dir_nk,read_file_for_II,read_file_for_I,read_file_for_II
     optical_data = [eps_I_f, eps_I_SH, eps_o_f, eps_e_f, eps_o_SH, eps_e_SH, wavelength_selected]
     return optical_data, medium_II_name, medium_I_name, medium_III_name, optical_data_III
 # **********************************************************************
-dir_nk = "C:/Users/...CHANGETHIS..." # change to desired directory
-output_dir = "C:/Users/...CHANGETHIS..." # change to desired directory
+dir_nk = "C:/Users/...CHANGETHIS..." # change to directory where n,k files are located
+output_dir = "C:/Users/...CHANGETHIS..." # change to directory where output files should go
 
 measured_mats = ['TiO2','RuO2','IrO2'] # read in n,k for these materials
 
