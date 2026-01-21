@@ -45,7 +45,9 @@ def run_model(output_dir, point_group_I, point_group_II, sources, optical_data_I
     fresnel_f = Fresnel(media=media,fresnel_method=fresnel_method,theta=theta,nCmp_jones=nCmp_jones,phi=phi)
     fresnel_SH = Fresnel(media=media,fresnel_method=fresnel_method,theta=theta,nCmp_jones=nCmp_jones,phi=phi)
     a_dict = {'s-in': np.array([1, 0]), 'p-in': np.array([0, 1])} # defines input Jones vector
-    q_hat_dict = {'s-out': np.array([]),'p-out': np.array([])} # defines output Jones vector
+    # In the line below, we initialize a dictionary which ultimately selects the directions along which we project (i.e., measure) the output SH field
+    # In SHRAevaluation.py ~ line 75, these are currently set to the s,p vectors of the upward SH field in medium I
+    q_hat_dict = {'s-out': np.array([]),'p-out': np.array([])} #
     # In the line below, we set the number of Fourier components extracted from the Fourier decomposition of the SH fields.
     # The number currently chosen ensured accurate reconstruction during testing; in the event of a poor reconstruction,
     # the code should flag it (see ~ line 242 in SHRAevaluation.py); you may need to increase this number
