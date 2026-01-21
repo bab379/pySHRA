@@ -24,8 +24,15 @@ def run_model(output_dir, point_group_I, point_group_II, sources, optical_data_I
     pi = rotation_mats.pi
     rotation_matrixI = Q_z
     rotation_matrixII = Q_z
-    nCmp_jones = 8 # number of components in Fourier decomposition for transmission/reflection coefficients
-    angles_xtal_to_lab = [phi,(pi/2)-phi,pi/2] # angles between optic axis 'c' and lab axes (x,y,z)
+    # In the line below, we set the number of Fourier components extracted from the Fourier decomposition of the linear response variables.
+    # The number currently chosen ensured accurate reconstruction during testing; in the event of a poor reconstruction,
+    # the code should flag it (see ~ line 312 in SHRAhelper.py); you may need to increase this number
+    nCmp_jones = 8
+    # In the line below we define angles between optic axis 'c' and lab axes (x,y,z)
+    # The current definition is for a (110) surface where at phi = 0, [001] || x
+    # For uniaxial crystals, transmission and reflection depend on the cosine of these angles
+    # For isotropic crystals, the definition below should be inconsequential.
+    angles_xtal_to_lab = [phi,(pi/2)-phi,pi/2]
     medI = mediumI(theta,point_group=point_group_I,rotation_matrix=rotation_matrixI)
     medII = mediumII(point_group=point_group_II,rotation_matrix=rotation_matrixII,angles_xtal_to_lab=angles_xtal_to_lab)
     if len(optical_data_III) > 0 and fresnel_method == 'iso_uni_uni':
@@ -39,7 +46,10 @@ def run_model(output_dir, point_group_I, point_group_II, sources, optical_data_I
     fresnel_SH = Fresnel(media=media,fresnel_method=fresnel_method,theta=theta,nCmp_jones=nCmp_jones,phi=phi)
     a_dict = {'s-in': np.array([1, 0]), 'p-in': np.array([0, 1])} # defines input Jones vector
     q_hat_dict = {'s-out': np.array([]),'p-out': np.array([])} # defines output Jones vector
-    nCmp = 10 # number of components in Fourier decomposition for SH field
+    # In the line below, we set the number of Fourier components extracted from the Fourier decomposition of the SH fields.
+    # The number currently chosen ensured accurate reconstruction during testing; in the event of a poor reconstruction,
+    # the code should flag it (see ~ line 242 in SHRAevaluation.py); you may need to increase this number
+    nCmp = 10
     evaluation = Evaluation(media,fresnel_f,fresnel_SH,a_dict,q_hat_dict,nCmp)
 
     # **********************************************************************
