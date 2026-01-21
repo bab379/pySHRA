@@ -210,17 +210,6 @@ class Evaluation:
                 coef_list = np.zeros(2*nCmp + 1, dtype=complex)
             else:
                 print(chi_key,field_label,np.max(field_vals))
-                # if chi_key =='chi_113' and field_label == 'p-in/s-out':
-                #     import matplotlib.pyplot as plt
-                #     plt.plot(np.real(field_vals))
-                #     plt.plot(np.imag(field_vals))
-                #     plt.show()
-                # if chi_key =='chi_311' and field_label == 'p-in/p-out':
-                #     import matplotlib.pyplot as plt
-                #     plt.plot(np.real(field_vals))
-                #     plt.plot(np.imag(field_vals))
-                #     plt.show()
-                # # matrix (nCmp+1, nPhi) @ vector (nPhi,) -> (nCmp+1,)
                 coef_list = (fourier_matrix @ field_vals) / float(nPhi)
 
             iso, cos_n, sin_n = extract_cos_sin_coeffs(coef_list)
@@ -249,8 +238,6 @@ class Evaluation:
                 den = np.mean(np.abs(field_vals) ** 2)
                 rrmse = float(np.sqrt(num) / (np.sqrt(den) + 1e-30))
                 if np.abs(rrmse) > 0.01:
-                #if chi_key == 'chi_333':
-                #if True:
                     print('Increase number of fourier components to improve accuracy...')
                     plt.plot(self.phi_vals, np.abs(field_vals), color='black')
                     plt.plot(self.phi_vals, np.abs(recon), color='red')
@@ -259,7 +246,6 @@ class Evaluation:
 
             result[field_label][chi_key]['RRMSE'].append(rrmse)
 
-        # persist back to self for batch runs
         if source == 'surface':
             self.X2_result = result
         elif source == 'EFISH':

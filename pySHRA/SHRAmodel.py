@@ -17,8 +17,8 @@ def run_model(output_dir, point_group_I, point_group_II, sources, optical_data_I
     # Setup
     theta_deg = 45
     theta = theta_deg*np.pi/180
-    print('AOI: ', theta_deg)
-    input('FRESNEL MODEL IS: ' + fresnel_method)
+    print('Angle of incidence (deg): ', theta_deg)
+    input('Treating system as (press enter to continue): ' + fresnel_method)
     Q_z = rotation_mats.Q_z # rotation matrix for azimuthal rotation about z axis
     phi = rotation_mats.phi
     pi = rotation_mats.pi
@@ -84,6 +84,7 @@ def run_model(output_dir, point_group_I, point_group_II, sources, optical_data_I
     save_result(evaluation.X3_result,X3_fourier_filename)
     save_result(fresnel_f.fresnel_dict,fund_fresnel_filename)
     save_result(fresnel_SH.fresnel_dict, SH_fresnel_filename)
+    print('Success. Output files have been generated.')
 
 
 def setup_optical_const(dir_nk,read_file_for_II,read_file_for_I,read_file_for_III,medium_II_name='',medium_I_name='',medium_III_name='',wv_bounds=[]):
@@ -237,7 +238,7 @@ point_group_dict = {'argon': 'infm','air': 'infm', 'water': 'infm', 'RuO2': 'mm2
 wv_bounds_dict = {'RuO2': [800,800], 'IrO2': [800,800], 'TiO2': [800,800], 'Pt': [800,800],'silica': [800,800]}
 
 media_II = ['RuO2']
-medium_I_name = 'argon'
+medium_I_name = 'water'
 medium_III_name = 'TiO2'
 medII_thickness = 9 # thickness in nm
 for j in range(0,len(media_II)):
